@@ -88,48 +88,65 @@ def update_name(name):
 ## Overview of the Data
 
 - Map size
+
 ![Map Size](images/file_size.png)
 
 - Number of unique users
+
 ![Number of unique users](images/unique_users.png)
 
 - Number of nodes and ways
+
 ![Number of nodes and ways](images/nodes_and_ways.png)
 
 - Top number of amenities appearing in the map.
+
 ![Top Amenities 1](images/top_amenities.png)
 ![Top Amenities 2](images/top_amenities_2.png)
 
 ### Additional Ideas
 
 - Top 15 number of streets appearing in result 
+
 ![Top 15 Streets](images/top_15_streets.png)
 
 - Top 15 cousine appearing in result
+
 ![Top 15 Cousine](images/top_15_cousines.png)
 
 - Top 15 users contribution
+
 ![Top 15 User Contribution](images/top_15_users.png)
 
 - Top amenity appears as bicycle parking with 30%, followed by restaurant with 19% 
+
 ![Top 15 Amenities 3](images/top_15_amenities_3.png)
 
-- When looking into schools, we found that there are 131 documents with “amenity”=”school” and Grace Curch School appearing two times.
+- When looking into schools, we found that there are 131 documents with “amenity”=”school” 
+and Grace Curch School appearing two times.
+
 ![Schools](images/schools.png)
 
-- Grouping by street we found that there are two schools in “East 12th Street” and “East 22nd Street”, with 88 documents that not contain “addr:street” field.
+- Grouping by street we found that there are two schools in “East 12th Street” and 
+“East 22nd Street”, with 88 documents that not contain “addr:street” field.
+
 ![Streets](images/top_streets_2.png)
 
 - Chase is the top appearing bank, with 22% of time (44 occurrences)
+
 ![Top Banks](images/top_banks.png)
 
-- We have 126 documents with null field in “addr:street” for “amenity”=”bank”. Counted total of 8 banks in 6th Avenue.
+- We have 126 documents with null field in “addr:street” for “amenity”=”bank”. 
+Counted total of 8 banks in 6th Avenue.
+
 ![Top Banks 2](images/top_banks_2.png)
 
 - Banks in 6th Avenue
+
 ![Banks in 6th Avenue](images/banks_in_6avenue.png)
 
-As suggested by the reviewer, it really would be good if there was a rating key on the data, so It could suggest the service quality on the specified amenity. 
+As suggested by the reviewer, it really would be good if there was a rating key on the data, 
+so It could suggest the service quality on the specified amenity. 
 This rating could be integrated by something like Foursquare app. 
 After running the following command to check for all available fields in the collection we see that there are not any fields that describe the amenity rating 
 (thanks to user Kristina @ https://stackoverflow.com/questions/2298870/get-names-of-all-keys-in-the-collection)
