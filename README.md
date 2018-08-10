@@ -160,10 +160,10 @@ There are many fields that should be standardized when registering data in the s
 
 ## References
 
-https://classroom.udacity.com/
-https://stackoverflow.com/
-https://docs.mongodb.com/
-https://wiki.openstreetmap.org/
+- https://classroom.udacity.com/
+- https://stackoverflow.com/
+- https://docs.mongodb.com/
+- https://wiki.openstreetmap.org/
 
 ## Project Structure
 
