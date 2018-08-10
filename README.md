@@ -120,7 +120,7 @@ def update_name(name):
 
 - Top amenity appears as bicycle parking with 30%, followed by restaurant with 19% 
 
-![Top 15 Amenities 3](images/top_15_amenities_3.png)
+![Top 15 Amenities 3](images/top_amenities_3.png)
 
 - When looking into schools, we found that there are 131 documents with “amenity”=”school” 
 and Grace Curch School appearing two times.
@@ -168,11 +168,14 @@ https://wiki.openstreetmap.org/
 ## Project Structure
 
 - data.py
+
 Its the main script and contains functions for auditing and processing the data
 
 - clean.py
+
 Auxiliar module with cleaning functions
 
 - dbadapter.py
+
 Auxiliar module with database functions, also includes ip, port and database configuration for database.
 Change ip, port and database to desired ones.
