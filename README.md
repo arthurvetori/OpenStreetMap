@@ -82,7 +82,7 @@ def update_name(name):
         newname = re.sub(r'\b' + key + r'\b\.?', mapping[key], name)
     return newname
 
-```python
+```
 
 
 ## Overview of the Data
